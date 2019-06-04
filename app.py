@@ -1,7 +1,7 @@
 from flask import Flask, request, session, render_template, render_template_string, redirect
 from time import time
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "4ik1uLm6VTZbkSg0Op2wx5dIqF1GoR39frNng8gqtggK"
+app.config['SECRET_KEY'] = "<censored>"
 
 @app.route('/')
 def home():
